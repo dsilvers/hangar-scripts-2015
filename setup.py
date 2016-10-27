@@ -4,6 +4,12 @@ import getpass
 import json
 import requests
 
+"""
+Log in to the hangar API and download an authenication token.
+
+Save the token and API endpoint to config.py.
+"""
+
 
 endpoint = raw_input("Endpoint URL: ")
 username = raw_input("Username/Email: ")
